@@ -6,6 +6,10 @@ http-response ^https:\/\/.*\.amemv\.com\/aweme\/v.*\/(feed|post) requires-body=t
 [MITM]
 hostname = *.amemv.com
 */
+
+/**
+ * @supported A9DEBB136F7C 8DE20E8149AC ED6FD249DAAC AXXXC005
+ */
  
 if (typeof $response != "undefined") {
   var obj = JSON.parse($response.body);
